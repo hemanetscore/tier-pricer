@@ -35,8 +35,8 @@ function install() {
   return (
     <Page>
       <Layout.AnnotatedSection
-        title={`${titleDescription} banner`}
-        description="Toggle banner installation on your shop"
+        title={`${titleDescription} tier price`}
+        description="Toggle tier price installation on your shop"
       >
         <SettingToggle
           action={{
@@ -45,7 +45,7 @@ function install() {
           }}
           enabled={true}
         >
-          The banner script is{" "}
+          The tier price script is{" "}
           <TextStyle variation="strong">{bodyDescription}</TextStyle>
         </SettingToggle>
       </Layout.AnnotatedSection>
